@@ -25,6 +25,20 @@ Performs sentiment analysis using Naive Bayes, Linear SVC, XGBoost, Decision Tre
 ### fastext_sentiment.py
 Performs sentiment analysis using the Facebook fasText algorithm.
 
+### common_functions.py
+Functions and classes used by more than one of the above Python scripts.
+
 ### Distilbert sentiment analysis.ipynb
 Performs sentiment analysis by taking a pre-trained DistilBERT model and feeding the features into a logistic regression classifier.  This file is a Google Colab notebook that can be run on Google Colab (but requires the Pro option for memory).
+
+The following data files are used by the above programs and are assumed to be in the /home/data folder:
+
+### positive-words-raw.txt
+A list of positive sentiment words downloaded from [Kaggle](https://www.kaggle.com/nltkdata/opinion-lexicon).
+
+### negative-words-raw.txt
+A list of positive negative sentiment words downloaded from [Kaggle](https://www.kaggle.com/nltkdata/opinion-lexicon).
+
+### tweets.txt
+A list of tweets downloaded from [Kaggle](https://www.kaggle.com/crowdflower/twitter-airline-sentiment).
 
